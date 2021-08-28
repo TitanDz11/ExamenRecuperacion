@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2Examen201510020106.User">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="User"/>
+            <Entry x:Name="txtUser" BackgroundColor="Gray" Keyboard="Numeric" MaxLength="100"/>
+
+            <Label Text="Password" />
+            <Entry x:Name="txtPassword" BackgroundColor="Gray" Keyboard="Numeric" MaxLength="100" IsPassword="False"/>
+
+            <Button Text="Salvar Ubicacion" x:Name="btnSalvar" Clicked="btnSalvar_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

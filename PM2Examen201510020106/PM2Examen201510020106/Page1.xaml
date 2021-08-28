@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2Examen201510020106.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="id" FontSize="Small" IsReadOnly="True"/>
+            <Entry x:Name="nombre" FontSize="Small" IsReadOnly="True"/>
+
+
+            <Button Text="Modificar"
+                TextColor="Black"
+                    x:Name="Modificar"
+                    Clicked="Modificar_Clicked"                    
+                />
+            
+            <Button Text="Eliminar"
+                TextColor="Black"
+                    x:Name="Eliminar"
+                    Clicked="Eliminar_Clicked"                    
+                />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
